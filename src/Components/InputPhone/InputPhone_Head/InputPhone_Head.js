@@ -3,7 +3,10 @@ import RotateLeftIcon from '@mui/icons-material/RotateLeft';
 import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
 import {Link} from 'react-router-dom'
 
-const InputPhone_Head = () => {
+const InputPhone_Head = ({setUser}) => {
+    const handleReset = () =>{
+        setUser({ id: '', fullName: '',number:'',group:'' ,age: '' ,favorite:false})
+    }
     return(
         <div className={'InputPhone_Head'}>
             <div>
@@ -12,7 +15,7 @@ const InputPhone_Head = () => {
                 </Link>
             </div>
             <div>
-                <RotateLeftIcon/>
+                <RotateLeftIcon onClick={handleReset}/>
             </div>
         </div>
     )

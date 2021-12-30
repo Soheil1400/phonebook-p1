@@ -26,7 +26,7 @@ const InputPhone = () => {
     }, [state])
     return(
         <div>
-            <InputPhone_Head/>
+            <InputPhone_Head setUser={setUser}/>
             <InputPhone_Body setAlert={setAlert} params={params} dispatch={dispatch} setUser={setUser} user={user}/>
             <InputPhone_Alert alert={alert}/>
         </div>

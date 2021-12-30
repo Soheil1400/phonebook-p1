@@ -32,7 +32,7 @@ const MainPhone_Table = ({setAlert, state, search, filter}) => {
                                     </div>
                                 </Link>
                             </TableCell>
-                            <TableCell align={'right'}><DeleteIcon onClick={() => setAlert({display: 'flex', id: user.id})}/></TableCell>
+                            <TableCell align={'right'}><DeleteIcon style={{cursor:'pointer'}} onClick={() => setAlert({display: 'flex', id: user.id})}/></TableCell>
                         </TableRow>))}
                 </TableBody>
             </Table>
