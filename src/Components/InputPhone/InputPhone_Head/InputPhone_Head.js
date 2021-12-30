@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 
 const InputPhone_Head = ({setUser}) => {
     const handleReset = () =>{
-        setUser({ id: '', fullName: '',number:'',group:'' ,age: '' ,favorite:false})
+        setUser({id: '', fullName: '',number:'',group:'' ,age: '' ,favorite:false})
     }
     return(
         <div className={'InputPhone_Head'}>
