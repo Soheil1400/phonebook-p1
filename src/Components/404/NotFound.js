@@ -12,7 +12,7 @@ const NotFound = () => {
                 Not Found
             </div>
             <div>
-                <Link to={'/'}>
+                <Link to={'/phonebook-p1'}>
                     <Button variant="contained" color={'warning'} size={'large'}>
                         Back to Contacts
                     </Button>

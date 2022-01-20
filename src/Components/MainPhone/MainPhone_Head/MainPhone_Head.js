@@ -14,7 +14,7 @@ const MainPhone_Head = ({state}) => {
                 </div>
             </div>
             <div className={'MainPhone_Head-Add'}>
-                <Link to={'inputForm/newContact'}>
+                <Link to={'/inputForm/newContact'}>
                     <AddCircleIcon color={'primary'} fontSize={'large'}/>
                 </Link>
             </div>

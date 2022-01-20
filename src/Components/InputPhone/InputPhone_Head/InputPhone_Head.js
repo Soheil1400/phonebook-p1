@@ -10,7 +10,7 @@ const InputPhone_Head = ({setUser}) => {
     return(
         <div className={'InputPhone_Head'}>
             <div>
-                <Link to={'/'}>
+                <Link to={'/phonebook-p1'}>
                     <KeyboardBackspaceIcon/>
                 </Link>
             </div>
