@@ -8,7 +8,7 @@ const App =() => {
   return (
         <BrowserRouter>
             <Routes>
-                <Route index path={'/'} element={<MainContainer/>}/>
+                <Route index path={'/phonebook-p1'} element={<MainContainer/>}/>
                 <Route path={'/contacts/:id'} element={<SingleContainer/>}/>
                 <Route path={'/inputForm/:id'} element={<InputContainer/>}/>
                 <Route path={'*'} element={<NotFound/>}/>
