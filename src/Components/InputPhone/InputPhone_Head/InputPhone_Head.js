@@ -15,7 +15,7 @@ const InputPhone_Head = ({setUser}) => {
                 </Link>
             </div>
             <div>
-                <RotateLeftIcon onClick={handleReset}/>
+                <RotateLeftIcon cursor={'pointer'} onClick={handleReset}/>
             </div>
         </div>
     )

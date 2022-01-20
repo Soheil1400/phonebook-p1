@@ -10,8 +10,8 @@ const MainPhone_Alert = ({alert, setAlert, dispatch}) => {
     return (
         <Alert variant="filled" severity="error" style={{display: alert.display}} action={
             <div>
-                <CheckIcon onClick={()=>handleDelete(alert.id)}/>
-                <ClearIcon onClick={()=>setAlert({display:'none',id:''})} />
+                <CheckIcon cursor={'pointer'} onClick={()=>handleDelete(alert.id)}/>
+                <ClearIcon cursor={'pointer'} onClick={()=>setAlert({display:'none',id:''})} />
             </div>}>
             Are you sure to delete ?
         </Alert>
